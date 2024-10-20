@@ -2,7 +2,6 @@ import HeroGraphic from "../assets/images/hero.svg";
 import IntroVideo from "../assets/videos/welcome_learnhub.mp4";
 import InstructionVideo from "../assets/videos/why_learnhub.mp4";
 import FacebookIcon from "../assets/images/facebook.svg";
-import InstagramIcon from "../assets/images/instagram.svg";
 import LinkedinIcon from "../assets/images/linkedin.svg";
 import YoutubeIcon from "../assets/images/youtube.svg";
 import { useRef } from "react";
