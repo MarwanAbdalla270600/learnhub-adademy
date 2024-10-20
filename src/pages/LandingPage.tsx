@@ -1,9 +1,11 @@
 import HeroGraphic from "../assets/images/hero.svg";
 import IntroVideo from "../assets/videos/welcome_learnhub.mp4";
 import InstructionVideo from "../assets/videos/why_learnhub.mp4";
-import FacebookIcon from "../assets/images/facebook.svg";
-import LinkedinIcon from "../assets/images/linkedin.svg";
-import YoutubeIcon from "../assets/images/youtube.svg";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import i18n from "../i18n";
@@ -45,8 +47,7 @@ function LandingPage() {
 
   return (
     <>
-      <header className="flex justify-between">
-        <h3>Learnhub</h3>
+      <header className="flex justify-center py-4 ">
         <div className="flex items-center gap-2">
           <label>English</label>
           <input
@@ -66,7 +67,10 @@ function LandingPage() {
             {t("hero.description")}{" "}
             <a className="font-semibold">{t("hero.coursesLink")}</a>
           </p>
-          <button onClick={scrollToSection} className="btn btn-primary w-fit">
+          <button
+            onClick={scrollToSection}
+            className="text-xl btn btn-primary w-fit"
+          >
             {t("hero.button")}
           </button>
         </div>
@@ -134,22 +138,33 @@ function LandingPage() {
             href="https://www.facebook.com/AbuseadaLearnHubAcademy"
             target="_blank"
             rel="noreferrer"
+            className="text-primary"
           >
-            <img width={50} src={FacebookIcon} alt="Facebook" />
+            <FaFacebook size={50} />
           </a>
           <a
             href="https://www.linkedin.com/in/ahmed-adel-abu-se-da-38541520/"
             target="_blank"
             rel="noreferrer"
+            className="text-primary"
           >
-            <img width={50} src={LinkedinIcon} alt="LinkedIn" />
+            <FaLinkedin size={50} />
           </a>
           <a
             href="https://www.youtube.com/@LearnHubWhenknowledgemeetspass"
             target="_blank"
             rel="noreferrer"
+            className="text-primary"
           >
-            <img width={50} src={YoutubeIcon} alt="YouTube" />
+            <FaYoutube size={50} />
+          </a>
+          <a
+            href="https://wa.link/f97hmt" 
+            target="_blank"
+            rel="noreferrer"
+            className="text-primary"
+          >
+            <FaWhatsapp size={50} />
           </a>
         </div>
       </section>
