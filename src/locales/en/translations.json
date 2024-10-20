@@ -1,0 +1,29 @@
+{
+    "hero": {
+      "title": "Learnhub Academy",
+      "subtitle": "Become the best version of yourself",
+      "description": "All courses you need in one place",
+      "coursesLink": "Courses",
+      "button": "Experience Learnhub"
+    },
+    "section1": {
+      "tagline": "Knowledge is Power",
+      "title": "Turn your Passion into Reality",
+      "description": "Our platform offers a variety of courses, providing access to professional learning videos that enhance your skills. Additionally, there is potential for promotion, along with opportunities for income raises as you advance in your career."
+    },
+    "features": {
+      "variety": "Variety of courses",
+      "income": "Income raise",
+      "knowledge": "Gain of knowledge",
+      "career": "New job career"
+    },
+    "section2": {
+      "tagline": "The beginning of your journey",
+      "title": "Why choosing us?",
+      "description": "Why choose us? Joining our platform is a great opportunity to enhance your learning journey. You'll become part of a vibrant community of professional instructors, with the chance to register today and start working toward your goals. Upon completing your courses, you’ll earn a certificate of completion, helping you move toward a successful future in your studies."
+    },
+    "social": {
+      "follow": "Follow us on Social Media"
+    }
+  }
+  
